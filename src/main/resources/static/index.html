@@ -37,26 +37,34 @@
 							Skilled in Infrastructure as Code (IaC), container orchestration, cloud-native delivery, and managing
 							deployments across AWS and Azure cloud platforms. Experienced in automating infrastructure provisioning,
 							configuration management, and ensuring scalable, high-availability production systems.
-							<br><br>
-
-							Previously worked as a QA Engineer with a strong background in Java, Selenium, TestNG, Cucumber,
+							<span id="more" style="display: none;">
+							<br><br>Previously worked as a QA Engineer with a strong background in Java, Selenium, TestNG, Cucumber,
 							Serenity BDD, and API testing using RestAssured, Postman, SOAP/XML, and TOSCA. Built robust UI automation
 							frameworks and seamlessly integrated them into CI/CD workflows, driving high test coverage, shift-left
 							testing, and fast feedback loops in Agile/Scrum teams. Familiar with version control systems like Git and
-							GitHub, and experienced in cloud migration, release management, and DevSecOps best practices.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn More</a></li>
-						</ul>
+							GitHub, and experienced in cloud migration, release management, and DevSecOps best practices.
+							</span><a href="javascript:void(0);" id="readMore" onclick="toggleReadMore()"> Read More...</a>
+						</p>
 					</section>
 
 				<!-- Two -->
 					<section id="two">
-						<h2>Recent Work</h2>
+						<h2>Certifications</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/01.jpg" class="image fit thumb"><img src="images/thumbs/01.jpg" alt="" /></a>
-								<h3>Magna sed consequat tempus</h3>
-								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>
+								<h3>Ultimate DevOps Project Implementation</h3>
+								<p>Technical Skills
+									Cloud Technologies - AWS
+									Build Tools - Gradle
+									Container Technologies - Docker, Kubernetes
+									Scripting - Shell and Python
+									Version Control System - Git, GitHub and Gitlab
+									Configuration Management - Ansible
+									Infrastructure as Code - Terraform
+									CI/CD - GitHub Actions, Jenkins and Argo CD
+								</p>
+								<a href="https://www.udemy.com/certificate/UC-16cf7f9f-e87d-4278-9e88-fa27038a6276/">View Credential</a>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/thumbs/02.jpg" alt="" /></a>
@@ -469,6 +477,20 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				function toggleReadMore() {
+				  const more = document.getElementById("more");
+				  const btn = document.getElementById("readMore");
+
+				  if (more.style.display === "none") {
+					more.style.display = "inline";
+					btn.innerText = " Read Less";
+				  } else {
+					more.style.display = "none";
+					btn.innerText = " Read More...";
+				  }
+				}
+			</script>
 
 	</body>
 </html>
