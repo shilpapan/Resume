@@ -2987,7 +2987,37 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+/* Experience*/
+            .experience-item {
+              margin-bottom: 1.5em;
+            }
 
+            .experience-header {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+
+            .experience-header h3 {
+              margin: 0 0 0 0.5em;
+              font-size: 1.1em;
+            }
+
+            .toggle-icon {
+              font-weight: bold;
+              font-size: 1.2em;
+              width: 1em;
+              display: inline-block;
+            }
+
+            .experience-details {
+              margin-left: 1.8em;
+              margin-top: 0.5em;
+            }
+
+            .hidden {
+              display: none;
+            }
 	}
 
 /* Large */
@@ -3031,6 +3061,37 @@ input, select, textarea {
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+		/* Experience*/
+                    .experience-item {
+                      margin-bottom: 1.5em;
+                    }
+
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0 0 0 0.5em;
+                      font-size: 1.1em;
+                    }
+
+                    .toggle-icon {
+                      font-weight: bold;
+                      font-size: 1.2em;
+                      width: 1em;
+                      display: inline-block;
+                    }
+
+                    .experience-details {
+                      margin-left: 1.8em;
+                      margin-top: 0.5em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
 
 	}
 
@@ -3113,6 +3174,37 @@ input, select, textarea {
 				padding: 6em 4em;
 				width: 100%;
 			}
+		/* Experience*/
+                    .experience-item {
+                      margin-bottom: 1.5em;
+                    }
+
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0 0 0 0.5em;
+                      font-size: 1.1em;
+                    }
+
+                    .toggle-icon {
+                      font-weight: bold;
+                      font-size: 1.2em;
+                      width: 1em;
+                      display: inline-block;
+                    }
+
+                    .experience-details {
+                      margin-left: 1.8em;
+                      margin-top: 0.5em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
 
 	}
 
@@ -3191,7 +3283,37 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
+        /* Experience*/
+                    .experience-item {
+                      margin-bottom: 1.5em;
+                    }
 
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0 0 0 0.5em;
+                      font-size: 1.1em;
+                    }
+
+                    .toggle-icon {
+                      font-weight: bold;
+                      font-size: 1.2em;
+                      width: 1em;
+                      display: inline-block;
+                    }
+
+                    .experience-details {
+                      margin-left: 1.8em;
+                      margin-top: 0.5em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
 	}
 
 /* XSmall */
@@ -3217,5 +3339,37 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+		/* Experience*/
+            .experience-item {
+              margin-bottom: 1.5em;
+            }
+
+            .experience-header {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+
+            .experience-header h3 {
+              margin: 0 0 0 0.5em;
+              font-size: 1.1em;
+            }
+
+            .toggle-icon {
+              font-weight: bold;
+              font-size: 1.2em;
+              width: 1em;
+              display: inline-block;
+            }
+
+            .experience-details {
+              margin-left: 1.8em;
+              margin-top: 0.5em;
+            }
+
+            .hidden {
+              display: none;
+            }
 
 	}

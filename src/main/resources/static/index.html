@@ -108,14 +108,49 @@
 <!--								<h3>Risus ornare lacinia</h3>-->
 <!--								<p>Lorem ipsum dolor sit amet nisl sed nullam feugiat.</p>-->
 <!--							</article>-->
-<!--						</div>-->
+						</div>
 <!--						<ul class="actions">-->
 <!--							<li><a href="#" class="button">Full Portfolio</a></li>-->
 <!--						</ul>-->
 					</section>
 
 				<!-- Three -->
-					<section id="three">
+				<section id="three">
+					<header class="major">
+						<h2>Experience </h2>
+					</header>
+					<div class="experience-item">
+						<div class="experience-header" onclick="toggleExperience(this)">
+							<span class="toggle-icon">+</span>
+							<h3>IBM (July 2024 to Present)</h3>
+						</div>
+						<div class="experience-details hidden">
+							<p>
+								• Worked on enterprise-grade CI/CD pipelines using Jenkins and Argo CD.<br>
+								• Deployed and managed cloud-native applications on AWS and Azure.<br>
+								• Built robust automation and monitoring using Terraform, Docker, and Kubernetes.
+							</p>
+						</div>
+					</div>
+
+
+					<p>DevOps Engineer with hands-on experience in AWS (EC2, S3, IAM, CodePipeline), Docker, Kubernetes (EKS),
+						Terraform, Ansible, and modern CI/CD pipelines using Jenkins, GitHub Actions, Argo CD, and Azure DevOps.
+						Skilled in Infrastructure as Code (IaC), container orchestration, cloud-native delivery, and managing
+						deployments across AWS and Azure cloud platforms. Experienced in automating infrastructure provisioning,
+						configuration management, and ensuring scalable, high-availability production systems.
+						<span id="more1" style="display: none;">
+							<br><br>Previously worked as a QA Engineer with a strong background in Java, Selenium, TestNG, Cucumber,
+							Serenity BDD, and API testing using RestAssured, Postman, SOAP/XML, and TOSCA. Built robust UI automation
+							frameworks and seamlessly integrated them into CI/CD workflows, driving high test coverage, shift-left
+							testing, and fast feedback loops in Agile/Scrum teams. Familiar with version control systems like Git and
+							GitHub, and experienced in cloud migration, release management, and DevSecOps best practices.
+							</span><a href="javascript:void(0);" id="readMore1" onclick="toggleReadMore()"> Read More...</a>
+					</p>
+				</section>
+
+				<!-- Four -->
+					<section id="four">
 						<h2>Get In Touch</h2>
 						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
 						<div class="row">
@@ -508,6 +543,16 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				  }
 				}
 			</script>
+		<script>
+			function toggleExperience(header) {
+              const icon = header.querySelector('.toggle-icon');
+              const details = header.nextElementSibling;
+              const isHidden = details.classList.contains('hidden');
+
+              details.classList.toggle('hidden');
+              icon.textContent = isHidden ? '−' : '+';
+            }
+		</script>
 
 	</body>
 </html>
