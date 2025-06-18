@@ -121,7 +121,7 @@
 					</header>
 					<div class="experience-item">
 						<div class="experience-header" onclick="toggleExperience(this)">
-							<span class="toggle-icon">+</span>
+							<span class="plus-circle">+</span>
 							<h3>IBM (July 2024 to Present)</h3>
 						</div>
 						<div class="experience-details hidden">
@@ -132,21 +132,62 @@
 							</p>
 						</div>
 					</div>
-
-
-					<p>DevOps Engineer with hands-on experience in AWS (EC2, S3, IAM, CodePipeline), Docker, Kubernetes (EKS),
-						Terraform, Ansible, and modern CI/CD pipelines using Jenkins, GitHub Actions, Argo CD, and Azure DevOps.
-						Skilled in Infrastructure as Code (IaC), container orchestration, cloud-native delivery, and managing
-						deployments across AWS and Azure cloud platforms. Experienced in automating infrastructure provisioning,
-						configuration management, and ensuring scalable, high-availability production systems.
-						<span id="more1" style="display: none;">
-							<br><br>Previously worked as a QA Engineer with a strong background in Java, Selenium, TestNG, Cucumber,
-							Serenity BDD, and API testing using RestAssured, Postman, SOAP/XML, and TOSCA. Built robust UI automation
-							frameworks and seamlessly integrated them into CI/CD workflows, driving high test coverage, shift-left
-							testing, and fast feedback loops in Agile/Scrum teams. Familiar with version control systems like Git and
-							GitHub, and experienced in cloud migration, release management, and DevSecOps best practices.
-							</span><a href="javascript:void(0);" id="readMore1" onclick="toggleReadMore()"> Read More...</a>
-					</p>
+					<br>
+					<div class="experience-item">
+						<div class="experience-header" onclick="toggleExperience(this)">
+							<span class="plus-circle">+</span>
+							<h3>Capgemini - Consultant (October 2022 to July 2024)</h3>
+						</div>
+						<div class="experience-details hidden">
+							<p>
+								•	Developing a comprehensive test automation strategy for projects, ensuring that testing efforts are
+								aligned with project goals and saving time and resources in the long run.
+								•	Planning test automation efforts, defining scope, objectives, and timelines, which leads to improved
+								project management and efficient resource allocation.
+								•	Creating and maintaining automated test scripts for various applications, resulting in faster and more
+								reliable testing, which reduces project development time.
+								•	Building and managing test automation frameworks to support efficient testing, leading to
+								standardized and consistent testing practices, improving overall software quality.
+								•	Ensuring proper test data management and availability in test environments, which minimizes
+								downtime and delays due to data issues.
+								•	Executing automated test scripts across different platforms and environments, reducing the risk
+								of platform-specific issues and ensuring software reliability.
+								•	Integrating automated tests into CI/CD pipelines for continuous testing, which accelerates
+								development cycles and delivers more frequent, high-quality releases.
+								•	Identifying, reporting, and tracking defects, collaborating with development teams, which
+								facilitates faster issue resolution and reduces the cost of post-release bug fixes.
+								•	Generating detailed test reports and quality metrics, providing valuable insights to make
+								data-driven decisions for process improvement.
+								•	Maintaining and updating test scripts and automation frameworks, ensuring long-term usability
+								and adaptability.
+								•	Staying informed about test automation best practices and industry trends, which keeps the
+								organization at the forefront of testing technology.
+								•	Collaborating with performance and security testing teams, ensuring comprehensive testing and
+								early identification of potential issues.
+								•	Communicating with clients and stakeholders to understand testing requirements, aligning testing
+								efforts with client expectations and enhancing client satisfaction.
+								•	Providing mentoring and training on test automation to team members, creating a skilled and
+								competent testing team that can deliver higher-quality work.
+								•	Documenting test scripts, test plans, and automation processes, which fosters knowledge sharing
+								and ensures the consistency and repeatability of testing.
+								•	Conducting regression testing to ensure the stability of existing functionality, safeguarding
+								against the introduction of unintended issues.
+								•	Collaborating with cross-functional teams, including developers and business analysts, which
+								fosters a culture of teamwork and cross-functional expertise.
+								•	Adhering to quality assurance standards and processes, maintaining a high standard of quality
+								in all project deliverables.
+								•	Evaluating and recommending testing tools and technologies for improvement, enhancing testing
+								efficiency and effectiveness through technology upgrades.
+								•	Spearheading POD operations, diligently orchestrating the daily deliveries from development
+								team and effectively distributing tasks among four pod members leading to a noticeable increase in
+								productivity and efficiency within the team.
+								•	Contributing to the Framework Enhancement Team through the recent transition from solely UI-based
+								approach to seamlessly integrating API automation which resulted in significant reduction in script
+								execution times, resulting in substantial time savings; Facilitating efforts to create generic,
+								customizable Gherkin lines leading to a more streamlined process, enhancing overall productivity.
+							</p>
+						</div>
+					</div>
 				</section>
 
 				<!-- Four -->
@@ -545,7 +586,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</script>
 		<script>
 			function toggleExperience(header) {
-              const icon = header.querySelector('.toggle-icon');
+              const icon = header.querySelector('.plus-circle');
               const details = header.nextElementSibling;
               const isHidden = details.classList.contains('hidden');
 

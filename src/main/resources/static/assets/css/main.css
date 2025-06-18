@@ -2988,8 +2988,19 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 /* Experience*/
-            .experience-item {
-              margin-bottom: 1.5em;
+            .plus-circle {
+              background-color: #007bff; /* Bootstrap Blue */
+              color: #fff;
+              border-radius: 50%;
+              font-weight: bold;
+              font-size: 1rem;
+              width: 1.8em;
+              height: 1.8em;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: background-color 0.3s;
+              margin-right: 0.5em;
             }
 
             .experience-header {
@@ -2999,20 +3010,13 @@ input, select, textarea {
             }
 
             .experience-header h3 {
-              margin: 0 0 0 0.5em;
+              margin: 0;
               font-size: 1.1em;
             }
 
-            .toggle-icon {
-              font-weight: bold;
-              font-size: 1.2em;
-              width: 1em;
-              display: inline-block;
-            }
-
             .experience-details {
-              margin-left: 1.8em;
-              margin-top: 0.5em;
+              margin-left: 2.3em;
+              margin-top: 0.6em;
             }
 
             .hidden {
@@ -3062,8 +3066,19 @@ input, select, textarea {
 				width: calc(100% - 30%);
 			}
 		/* Experience*/
-                    .experience-item {
-                      margin-bottom: 1.5em;
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
                     }
 
                     .experience-header {
@@ -3073,25 +3088,19 @@ input, select, textarea {
                     }
 
                     .experience-header h3 {
-                      margin: 0 0 0 0.5em;
+                      margin: 0;
                       font-size: 1.1em;
                     }
 
-                    .toggle-icon {
-                      font-weight: bold;
-                      font-size: 1.2em;
-                      width: 1em;
-                      display: inline-block;
-                    }
-
                     .experience-details {
-                      margin-left: 1.8em;
-                      margin-top: 0.5em;
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
                     }
 
                     .hidden {
                       display: none;
                     }
+
 
 	}
 
@@ -3175,8 +3184,19 @@ input, select, textarea {
 				width: 100%;
 			}
 		/* Experience*/
-                    .experience-item {
-                      margin-bottom: 1.5em;
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
                     }
 
                     .experience-header {
@@ -3186,25 +3206,19 @@ input, select, textarea {
                     }
 
                     .experience-header h3 {
-                      margin: 0 0 0 0.5em;
+                      margin: 0;
                       font-size: 1.1em;
                     }
 
-                    .toggle-icon {
-                      font-weight: bold;
-                      font-size: 1.2em;
-                      width: 1em;
-                      display: inline-block;
-                    }
-
                     .experience-details {
-                      margin-left: 1.8em;
-                      margin-top: 0.5em;
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
                     }
 
                     .hidden {
                       display: none;
                     }
+
 
 	}
 
@@ -3284,8 +3298,19 @@ input, select, textarea {
 					margin-top: -1em;
 				}
         /* Experience*/
-                    .experience-item {
-                      margin-bottom: 1.5em;
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
                     }
 
                     .experience-header {
@@ -3295,25 +3320,19 @@ input, select, textarea {
                     }
 
                     .experience-header h3 {
-                      margin: 0 0 0 0.5em;
+                      margin: 0;
                       font-size: 1.1em;
                     }
 
-                    .toggle-icon {
-                      font-weight: bold;
-                      font-size: 1.2em;
-                      width: 1em;
-                      display: inline-block;
-                    }
-
                     .experience-details {
-                      margin-left: 1.8em;
-                      margin-top: 0.5em;
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
                     }
 
                     .hidden {
                       display: none;
                     }
+
 	}
 
 /* XSmall */
@@ -3341,8 +3360,19 @@ input, select, textarea {
 			}
 
 		/* Experience*/
-            .experience-item {
-              margin-bottom: 1.5em;
+            .plus-circle {
+              background-color: #007bff; /* Bootstrap Blue */
+              color: #fff;
+              border-radius: 50%;
+              font-weight: bold;
+              font-size: 1rem;
+              width: 1.8em;
+              height: 1.8em;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: background-color 0.3s;
+              margin-right: 0.5em;
             }
 
             .experience-header {
@@ -3352,24 +3382,18 @@ input, select, textarea {
             }
 
             .experience-header h3 {
-              margin: 0 0 0 0.5em;
+              margin: 0;
               font-size: 1.1em;
             }
 
-            .toggle-icon {
-              font-weight: bold;
-              font-size: 1.2em;
-              width: 1em;
-              display: inline-block;
-            }
-
             .experience-details {
-              margin-left: 1.8em;
-              margin-top: 0.5em;
+              margin-left: 2.3em;
+              margin-top: 0.6em;
             }
 
             .hidden {
               display: none;
             }
+
 
 	}
