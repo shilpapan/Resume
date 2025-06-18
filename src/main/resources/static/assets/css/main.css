@@ -2895,7 +2895,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
 			-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
-			color: #fff;
+			color: #003366;
 			height: 4em;
 			line-height: 4em;
 			opacity: 0;
@@ -2987,7 +2987,41 @@ input, select, textarea {
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+/* Experience*/
+            .plus-circle {
+              background-color: #007bff; /* Bootstrap Blue */
+              color: #fff;
+              border-radius: 50%;
+              font-weight: bold;
+              font-size: 1rem;
+              width: 1.8em;
+              height: 1.8em;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: background-color 0.3s;
+              margin-right: 0.5em;
+            }
 
+            .experience-header {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+
+            .experience-header h3 {
+              margin: 0;
+              font-size: 1.1em;
+            }
+
+            .experience-details {
+              margin-left: 2.3em;
+              margin-top: 0.6em;
+            }
+
+            .hidden {
+              display: none;
+            }
 	}
 
 /* Large */
@@ -3031,6 +3065,42 @@ input, select, textarea {
 				padding: 6em 3em 3em 3em;
 				width: calc(100% - 30%);
 			}
+		/* Experience*/
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
+                    }
+
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0;
+                      font-size: 1.1em;
+                    }
+
+                    .experience-details {
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
+
 
 	}
 
@@ -3113,6 +3183,42 @@ input, select, textarea {
 				padding: 6em 4em;
 				width: 100%;
 			}
+		/* Experience*/
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
+                    }
+
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0;
+                      font-size: 1.1em;
+                    }
+
+                    .experience-details {
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
+
 
 	}
 
@@ -3191,6 +3297,41 @@ input, select, textarea {
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
 				}
+        /* Experience*/
+                    .plus-circle {
+                      background-color: #007bff; /* Bootstrap Blue */
+                      color: #fff;
+                      border-radius: 50%;
+                      font-weight: bold;
+                      font-size: 1rem;
+                      width: 1.8em;
+                      height: 1.8em;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      transition: background-color 0.3s;
+                      margin-right: 0.5em;
+                    }
+
+                    .experience-header {
+                      display: flex;
+                      align-items: center;
+                      cursor: pointer;
+                    }
+
+                    .experience-header h3 {
+                      margin: 0;
+                      font-size: 1.1em;
+                    }
+
+                    .experience-details {
+                      margin-left: 2.3em;
+                      margin-top: 0.6em;
+                    }
+
+                    .hidden {
+                      display: none;
+                    }
 
 	}
 
@@ -3217,5 +3358,42 @@ input, select, textarea {
 				margin-left: 0;
 				padding-left: 0;
 			}
+
+		/* Experience*/
+            .plus-circle {
+              background-color: #007bff; /* Bootstrap Blue */
+              color: #fff;
+              border-radius: 50%;
+              font-weight: bold;
+              font-size: 1rem;
+              width: 1.8em;
+              height: 1.8em;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              transition: background-color 0.3s;
+              margin-right: 0.5em;
+            }
+
+            .experience-header {
+              display: flex;
+              align-items: center;
+              cursor: pointer;
+            }
+
+            .experience-header h3 {
+              margin: 0;
+              font-size: 1.1em;
+            }
+
+            .experience-details {
+              margin-left: 2.3em;
+              margin-top: 0.6em;
+            }
+
+            .hidden {
+              display: none;
+            }
+
 
 	}
